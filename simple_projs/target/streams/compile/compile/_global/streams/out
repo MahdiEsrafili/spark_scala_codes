@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/popular_movies.scala:14:27: not enough arguments for method textFile: (path: String, minPartitions: Int)org.apache.spark.rdd.RDD[String].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter path.[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = sc.textFile()[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

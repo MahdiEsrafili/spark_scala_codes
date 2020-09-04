@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/mysparkub/scala_codes/spark/movie_rating/target/scala-2.12/ratingscounter_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RatingsCounter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mysparkub/scala_codes/spark/movie_rating/target/scala-2.12/classes/RatingsCounter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RatingsCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mysparkub/scala_codes/spark/movie_rating/target/scala-2.12/classes/RatingsCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

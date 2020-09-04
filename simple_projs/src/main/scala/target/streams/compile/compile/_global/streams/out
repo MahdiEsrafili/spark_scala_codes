@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/FriendCount.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/FriendCount.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/FriendCount.scala:13:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext("local[*]", "FriendCount")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/book_words.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/book_words.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/book_words.scala:7:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext("local[*]", "book_words")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/weather.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/weather.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mysparkub/scala_codes/spark/friend_count/src/main/scala/weather.scala:14:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext("local[*]", "weather")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m

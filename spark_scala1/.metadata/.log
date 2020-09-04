@@ -1,0 +1,39 @@
+!SESSION 2020-09-03 04:56:09.725 -----------------------------------------------
+eclipse.buildId=4.7.0-vfinal-2017-09-29T14:34:02Z-Typesafe
+java.version=1.8.0_265
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-09-03 04:57:02.892
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-03 04:57:02.893
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4303f941,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fa27cbc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.scala-ide.sdt.core 2 0 2020-09-03 05:25:19.173
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for spark_tut1, setting default to 2.12.
+
+!ENTRY org.scala-ide.sdt.core 1 0 2020-09-03 05:25:19.176
+!MESSAGE Removing  from compiler arguments of spark_tut1 because of: requested Scala Installation change
+
+!ENTRY org.scala-ide.sdt.core 1 0 2020-09-03 05:25:19.176
+!MESSAGE Turning off project-specific settings for spark_tut1 because of Settings are all identical to workspace after Xsource removal.
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-09-03 05:28:55.016
+!MESSAGE The workspace will exit with unsaved changes in this session.
