@@ -1,0 +1,6 @@
+#FileLock
+#Mon Sep 07 12:03:07 EDT 2020
+server=127.0.1.1\:38197
+hostName=spark-ubuntu1
+method=file
+id=174694e85ec04ada6b029ca05ee535209e98e724354

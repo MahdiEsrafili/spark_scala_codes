@@ -1,0 +1,316 @@
+INFO  time: initialize in 0.45s
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/book_words.scala
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/project/assembly.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/book_words.scala
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/book_words.scala
+Sep 07, 2020 12:28:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/book_words.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/book_words.scala",
+        "type": 1
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/customer_spending.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/customer_spending.scala",
+        "type": 1
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/book_words.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 16 more
+
+Sep 07, 2020 12:28:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/FriendCount.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/FriendCount.scala",
+        "type": 1
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/popular_movies.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/popular_movies.scala",
+        "type": 1
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/weather.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/weather.scala",
+        "type": 1
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/FriendCount.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 16 more
+
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/popular_movies.scala
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/book_words.scala
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/book_words.scala
+Sep 07, 2020 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/book_words.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/book_words.scala",
+        "type": 1
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/customer_spending.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/customer_spending.scala",
+        "type": 1
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/book_words.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 16 more
+
+Sep 07, 2020 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/FriendCount.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/FriendCount.scala",
+        "type": 1
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/popular_movies.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/popular_movies.scala",
+        "type": 1
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/weather.scala",
+        "type": 3
+      },
+      {
+        "uri": "file:///home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/weather.scala",
+        "type": 1
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies/FriendCount.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 15 more
+
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies.scala
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/spark/popular_movies.scala
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/build.sbt
+INFO  skipping build import with status 'Requested'
+WARN  no build target: 
+WARN  no build target: /home/mysparkub/scala_codes/spark/simple_projs/src/main/scala/com/mahdi/spark/popular_movies.scala
